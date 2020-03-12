@@ -1,0 +1,156 @@
+body {
+  font-family: 'Arial', 'Helvetica', 'sans-serif';
+  font-size: 1rem;
+  width: 80%;
+  margin: 12% 15%;
+}
+
+
+legend {
+  font-size: 2rem;
+  box-sizing: border-box;
+  background-color:#fff;
+  border: 2px solid #DDD;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+label{
+  display: block;
+}
+
+fieldset {
+  background-color: #F5F5F5;
+  border: 2px solid #DDD;
+}
+
+.button {
+  font-size: 2rem;
+  color: #fff;
+  width:20%;
+}
+
+  input {
+    padding: 5px;
+    width: 100%;
+    border: 2px solid #DDD;
+       background-color: #6495ED;
+  }
+
+  textarea {
+    height: 80px;
+    width:100%;
+    margin: 5px 0px;
+    border: 2px solid #DDD;
+  }
+  .name {
+    width: 49%;
+    float: left;
+  }
+
+  .email{
+    margin-left: 2%;
+    width: 49%;
+    float: right;
+  }
+
+  .message {
+    width:100%;
+  }
+
+
+@media screen and (min-width: 40rem) and (max-width: 50rem){
+  input {
+    margin: 5px 0px;
+    height: 40px;
+    width: 100%;
+    border: 2px solid #DDD;
+  }
+
+  textarea {
+    width:100%;
+    margin: 5px 0px;
+    border: 2px solid #DDD;
+  }
+  .name {
+    width: 49%;
+    float: left;
+  }
+
+  .email{
+    margin-left: 2%;
+    width: 49%;
+    float: right;
+  }
+
+  .message {
+    width:100%;
+  }
+}
+
+
+@media screen and (min-width:25rem) and (max-width: 40rem) {
+  body{
+    width:90%;
+    margin: 2% 5%;
+  }  
+
+  input {
+    margin: 5px 0px;
+    width: 100%;
+    border: 2px solid #DDD;
+  }
+
+  textarea {
+    width:100%;
+    margin: 5px 0px;
+    border: 2px solid #DDD;
+  }
+  .name {
+    width: 48%;
+    float: left;
+  }
+
+  .email{
+    margin-left: 2%;
+    width: 48%;
+    float: right;
+  }
+
+  .message {
+    width:100%;
+  }
+}
+
+@media screen and (min-width:10rem) and (max-width:25rem) {
+  body{
+    width:80%;
+    margin: 2% 10%;
+  }  
+
+  input {
+    margin: 5px 0px;
+    border: 2px solid #DDD;
+  }
+
+  textarea {
+    margin: 5px 0px;
+    border: 2px solid #DDD;
+  }
+
+  .name {
+    float: none;
+  }
+
+  .email{
+    margin-left: 0%;
+    float: none;
+  }
+
+  .button {
+    width:100%;
+  }
+
+}
